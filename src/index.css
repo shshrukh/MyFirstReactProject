@@ -1,0 +1,53 @@
+/* @import "tailwindcss"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    padding: 5px 10px;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    background-color: gray;
+
+}
+.navLinks{
+    display: flex;
+    gap: 20px;
+}
+.SearchLogin input{
+    padding: 20px 50px;
+    margin: 30px;
+}
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+.loginBtn button{
+    padding: 20px;
+}
+.loginBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #090808;
+    color: white;
+    margin: 5px 5px;
+
+}
+.loginBtn:hover{
+    background: #c5b6b6;
+    color: rgb(0, 0, 0);
+
+}
